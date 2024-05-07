@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\laragon\www\learn-phpunit\phpunit.xml" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
+    <testsuite name="Test Suite" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
+      <testsuite name="MockTest" file="C:\laragon\www\learn-phpunit\tests\MockTest.php" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
+        <testcase name="testMock" file="C:\laragon\www\learn-phpunit\tests\MockTest.php" line="7" class="MockTest" classname="MockTest" assertions="0" time="0.020238"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
