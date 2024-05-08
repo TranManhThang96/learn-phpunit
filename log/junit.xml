@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="C:\laragon\www\learn-phpunit\phpunit.xml" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
-    <testsuite name="Test Suite" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
-      <testsuite name="MockTest" file="C:\laragon\www\learn-phpunit\tests\MockTest.php" tests="1" assertions="0" errors="0" failures="0" skipped="0" time="0.020238">
-        <testcase name="testMock" file="C:\laragon\www\learn-phpunit\tests\MockTest.php" line="7" class="MockTest" classname="MockTest" assertions="0" time="0.020238"/>
+  <testsuite name="C:\laragon\www\learn-phpunit\phpunit.xml" tests="14" assertions="17" errors="0" failures="0" skipped="0" time="0.024983">
+    <testsuite name="Test Suite" tests="14" assertions="17" errors="0" failures="0" skipped="0" time="0.024983">
+      <testsuite name="ExampleTest" file="C:\laragon\www\learn-phpunit\tests\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.004065">
+        <testcase name="testAddingTwoPlusTwoResultsInFour" file="C:\laragon\www\learn-phpunit\tests\ExampleTest.php" line="7" class="ExampleTest" classname="ExampleTest" assertions="1" time="0.004065"/>
+      </testsuite>
+      <testsuite name="FunctionTest" file="C:\laragon\www\learn-phpunit\tests\FunctionTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.002029">
+        <testcase name="testAddReturnsTheCorrectSum" file="C:\laragon\www\learn-phpunit\tests\FunctionTest.php" line="6" class="FunctionTest" classname="FunctionTest" assertions="2" time="0.000261"/>
+        <testcase name="testAddDoesNotReturnTheIncorrectSum" file="C:\laragon\www\learn-phpunit\tests\FunctionTest.php" line="13" class="FunctionTest" classname="FunctionTest" assertions="1" time="0.001768"/>
+      </testsuite>
+      <testsuite name="Queue2Test" file="C:\laragon\www\learn-phpunit\tests\Queue2Test.php" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="0.017815">
+        <testcase name="testNewQueueIsEmpty" file="C:\laragon\www\learn-phpunit\tests\Queue2Test.php" line="19" class="Queue2Test" classname="Queue2Test" assertions="1" time="0.017554"/>
+        <testcase name="testAnItemIsAddedToTheQueue" file="C:\laragon\www\learn-phpunit\tests\Queue2Test.php" line="26" class="Queue2Test" classname="Queue2Test" assertions="1" time="0.000133"/>
+        <testcase name="testAnItemIsRemovedFromTheQueue" file="C:\laragon\www\learn-phpunit\tests\Queue2Test.php" line="32" class="Queue2Test" classname="Queue2Test" assertions="2" time="0.000129"/>
+      </testsuite>
+      <testsuite name="QueueTest" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" tests="5" assertions="6" errors="0" failures="0" skipped="0" time="0.000571">
+        <testcase name="testNewQueueIsEmpty" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" line="7" class="QueueTest" classname="QueueTest" assertions="1" time="0.000102"/>
+        <testcase name="testAnItemIsAddedToTheQueue" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" line="17" class="QueueTest" classname="QueueTest" assertions="1" time="0.000130"/>
+        <testcase name="testAnItemIsRemovedFromTheQueue" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" line="27" class="QueueTest" classname="QueueTest" assertions="2" time="0.000124"/>
+        <testcase name="testAnItemIsRemovedFromTheFrontOfTheQueue" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" line="34" class="QueueTest" classname="QueueTest" assertions="1" time="0.000104"/>
+        <testcase name="testMaxNumberOfItemsCanBeAdded" file="C:\laragon\www\learn-phpunit\tests\QueueTest.php" line="42" class="QueueTest" classname="QueueTest" assertions="1" time="0.000113"/>
+      </testsuite>
+      <testsuite name="UserTest" file="C:\laragon\www\learn-phpunit\tests\UserTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.000503">
+        <testcase name="testReturnsFullName" file="C:\laragon\www\learn-phpunit\tests\UserTest.php" line="15" class="UserTest" classname="UserTest" assertions="1" time="0.000298"/>
+        <testcase name="testFullNameIsEmptyByDefault" file="C:\laragon\www\learn-phpunit\tests\UserTest.php" line="28" class="UserTest" classname="UserTest" assertions="1" time="0.000111"/>
+        <testcase name="user_has_first_name" file="C:\laragon\www\learn-phpunit\tests\UserTest.php" line="40" class="UserTest" classname="UserTest" assertions="1" time="0.000093"/>
       </testsuite>
     </testsuite>
   </testsuite>
